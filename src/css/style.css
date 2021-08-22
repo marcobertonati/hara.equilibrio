@@ -121,6 +121,93 @@
     justify-content: center;
 }
 
+/*Contactanos*/
+
+#Contactanos {
+    height: 400px;
+    margin-top: 400px;
+}
+
+.containerContacto {
+    width: 100%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.rowC1 {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rowC2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.col-3C {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 20%;
+}
+
+.sectionCtitle {
+    color: rgb(69, 130, 128);
+    display: flex;
+    justify-content: center;
+}
+
+.facebookContactIcon {
+    width: 20%;
+}
+
+.instagramContactIcon {
+    width: 20%;
+}
+
+.whatsappContactIcon {
+    width: 20%;
+}
+
+.mailContactIcon {
+    width: 20%;
+}
+
+.ubicacion {
+    margin-top: 80px;
+    text-align: right;
+}
+
+form input {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 10px 0;
+    border: 1px solid black;
+    font-family: "Montserrat", sans-serif;
+}
+  
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+  
+form textarea {
+    padding: 70px 20px;
+    font-size: 14px;
+    margin: 30px 0;
+    border: 1px solid black;
+    font-family: "Montserrat", sans-serif;
+}
+
+
 /*--Footer--*/
 .footer-container{
     background-color: rgb(248, 249, 250);
