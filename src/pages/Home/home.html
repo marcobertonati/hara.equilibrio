@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hara Equilibrio 🗻</title>
+
+    <!--Repositorio Git: https://github.com/marcobertonati/hara.equilibrio-->
+
+    <!--Link CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+
+    <!--FontAwesome CDN-->
+    <!--https://fontawesome.com/-->
+    <script src="https://kit.fontawesome.com/87a2a4ef3d.js" crossorigin="anonymous"></script>
+
+    <!--Link CSS propio-->
+    <link rel="stylesheet" href="home.css" />
+</head>
+<body class="body-class">
+
+    <div class="container">
+
+        <!--HEADER & NAVBAR-->
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+            <div class="row">
+    
+              <div class="col-12">
+    
+                <div class="row header-navbar">
+                  <!-- <a class="navbar-brand" href="#" class="col-4" > Hara Equlibrio</a> -->
+                  <h1 class="col-4">HARA EQUILIBRIO</h1>
+                  <div class="col-4 header-navbar__annouce">Envío gratis a toda la Argentina en compras superiores a $5000 🚚 </div>
+                  <div class="col-4 icons-socialmedia">
+    
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-facebook-square fa-2x"></i>
+    
+                    <a href="https://api.whatsapp.com/send?phone=+542616171509" target="blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    
+    
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-12">
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav navbar-ul">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/hara.equilibrio/src/pages/Home/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/hara.equilibrio/src/pages/QuienesSomos/quienesSomos.html">¿Quienes Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/hara.equilibrio/src/pages/MontañaProductos/montañaProductos.html">Montaña</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/hara.equilibrio/src/pages/UrbanoPorductos/urbanoProductos.html">Urbano</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/hara.equilibrio/src/pages/AccesoriosProductos/accesoriosProductos.html">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/hara.equilibrio/src/pages/Contactanos/contactanos.html">Contactanos</a>
+                    </li>
+                  </ul>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+          </nav>
+        </header>
+    
+        <!--CONTENIDO PRINCIPAL-->
+        <!--Home-->
+        <section id="home">
+            <div class="row home">
+    
+                <!--Carousel-->
+                <div class="col-10">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/hara.equilibrio/src/assets/imagen-carousel-news-01.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/hara.equilibrio/src/assets/imagen-carousel-news-02.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/hara.equilibrio/src/assets/imagen-carousel-news-03.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    
+        <!--Aside-->
+        <aside class="col-2">
+
+            <div class="row">
+
+                <div class="col aside-widget">
+                    <div>¿Es tu primera vez comprando indumentaria de montaña?</div>
+                    <div>
+                    <button type="button" class="btn btn-outline-primary">SI</button>
+                    <button type="button" class="btn btn-outline-primary">NO</button>
+                    </div>
+                </div>
+                <div class="col aside-widget">
+                    <img class="aside-img img-fluid" src="/hara.equilibrio/src/assets/radio-nova.jpg" alt="..." />
+                    <div> <a class="aside-a__radio-nova" href="https://www.novacontenidos.com/">Radio NOVA Contenidos</a></div>
+                </div>
+                <!-- <img src="/src/assets/hara-equilibrio.jpg" alt="" /> -->
+
+            </div>
+        </aside>
+    
+          </div>
+        </section>
+    
+        <!--FOOTER-->
+        <footer class="footer-container">
+          <p class="footer-p">Hara Equlibrio @ 2021</p>
+        </footer>
+    </div>
+    
+    <!--Link CDN JavaScript Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+    <!--Link JavaScript index.js-->
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
