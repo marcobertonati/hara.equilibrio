@@ -41,6 +41,35 @@
     margin-top: 50px;
 }
 
+/*Talles*/
+
+.ul-sizes{
+    display: flex;
+    justify-content: flex-start;
+}
+.ul-sizes__li{
+    list-style: none;
+    padding: 0.3rem 0.75rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border: 2px solid rgb(69, 130, 128);
+}
+
+/*Colores*/
+
+.ul-colours{
+    display: flex;
+    justify-content: flex-start;
+}
+.ul-colours__li{
+    list-style: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    border: 2px solid rgb(69, 130, 128);
+}
+
 /*Icons*/
 
 .fab {
