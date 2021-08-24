@@ -85,8 +85,8 @@
 
 /*--Footer--*/
 .footer-container{
+    margin-top: 1rem;
     background-color: rgb(248, 249, 250);
-    margin-top: 500px;
 }
 
 .footer-p{

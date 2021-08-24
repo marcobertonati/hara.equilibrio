@@ -36,14 +36,16 @@
             <div class="row header-navbar">
               <!-- <a class="navbar-brand" href="#" class="col-4" > Hara Equlibrio</a> -->
               <h1 class="col-4">HARA EQUILIBRIO</h1>
-              <div class="col-4 header-navbar__annouce">Envío gratis a toda la Argentina en compras superiores a $5000 🚚 </div>
+              <div class="col-4 header-navbar__annouce">Envío gratis a toda la Argentina en compras superiores a $5000
+                🚚 </div>
               <div class="col-4 icons-socialmedia">
 
                 <i class="fab fa-instagram fa-2x"></i>
                 <i class="fab fa-facebook-square fa-2x"></i>
 
-                <a href="https://api.whatsapp.com/send?phone=+542616171509" target="blank"><i class="fab fa-whatsapp fa-2x"></i></a>
-                
+                <a href="https://api.whatsapp.com/send?phone=+542616171509" target="blank"><i
+                    class="fab fa-whatsapp fa-2x"></i></a>
+
 
               </div>
             </div>
@@ -59,10 +61,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav navbar-ul">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/hara.equilibrio/src/pages/Home/home.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/hara.equilibrio/src/pages/QuienesSomos/quienesSomos.html">¿Quienes Somos?</a>
+                  <a class="nav-link" href="./src/pages/QuienesSomos/quienesSomos.html">¿Quienes Somos?</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Montaña</a>
@@ -74,7 +76,7 @@
                   <a class="nav-link" href="#">Accesorios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/hara.equilibrio/src/pages/Contactanos/contactanos.html">Contactanos</a>
+                  <a class="nav-link" href="./src/pages/Contactanos/contactanos.html">Contactanos</a>
                 </li>
               </ul>
             </div>
@@ -131,18 +133,24 @@
         <!--Aside-->
         <aside class="col-2">
 
-          <div class="row">
+          <div id="aside-widget" class="row">
 
-            <div class="col aside-widget">
-              <div>¿Es tu primera vez comprando indumentaria de montaña?</div>
-              <div>
-                <button type="button" class="btn btn-outline-primary">SI</button>
-                <button type="button" class="btn btn-outline-primary">NO</button>
+            <div id="aside-widget__question" class="col aside-widget">
+
+              <div id="aside-widget__question-child"class="aside-widget__question">
+                <div>¿Es tu primera vez comprando indumentaria de montaña?</div>
+                <div>
+                  <button type="button" id="btn-aside_yes" class="btn btn-outline-primary">SI</button>
+                  <button type="button" id="btn-aside_no" class="btn btn-outline-primary">NO</button>
+                </div>
               </div>
+
+
             </div>
             <div class="col aside-widget">
               <img class="aside-img img-fluid" src="./src/assets/radio-nova.jpg" alt="..." />
-              <div> <a class="aside-a__radio-nova" href="https://www.novacontenidos.com/">Radio NOVA Contenidos</a></div>
+              <div> <a class="aside-a__radio-nova" href="https://www.novacontenidos.com/">Radio NOVA Contenidos</a>
+              </div>
             </div>
             <!-- <img src="/src/assets/hara-equilibrio.jpg" alt="" /> -->
 
