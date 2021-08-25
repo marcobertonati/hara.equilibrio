@@ -6,6 +6,7 @@
     background-color: rgb(248, 249, 250);
 }
 
+
 /*-------------*/
 
 /*Header & Navbar*/
@@ -35,10 +36,30 @@
     flex-flow: column;
 }
 
+/*Images*/
+
+.images-carousel-products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.images-carousel-products__image{
+    padding-right: 0.3rem;
+}
+
 /*Detalle*/
 
+.btn-buy{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 3.5rem;
+}
+
 .detalle {
-    margin-top: 50px;
+    margin-top: 1rem;
 }
 
 /*Talles*/
@@ -46,6 +67,7 @@
 .ul-sizes{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .ul-sizes__li{
     list-style: none;
@@ -60,6 +82,7 @@
 .ul-colours{
     display: flex;
     justify-content: flex-start;
+
 }
 .ul-colours__li{
     list-style: none;
@@ -68,6 +91,15 @@
     margin-right: 1rem;
     border-radius: 100%;
     border: 2px solid rgb(69, 130, 128);
+    background-color: rgb(69, 130, 128);;
+}
+
+/*Colores*/
+.btn-backList {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 3.5rem;
 }
 
 /*Icons*/
