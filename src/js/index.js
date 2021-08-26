@@ -9,10 +9,12 @@ btnNo.addEventListener('click', nextQuestion);
 function nextSecondQuestion() {
     const asideWidget = document.getElementById('aside-widget');
     const asideToRemove = document.getElementById('aside-widget__question');
+    const asideRadio = document.getElementById('aside-widget__radio');
     asideWidget.removeChild(asideToRemove);
     const msgAside = document.createElement('div');
     msgAside.innerHTML = `<div>¡Te esperamos para tu compra!</div>`
-    asideWidget.appendChild(msgAside);
+    asideWidget.insertBefore(msgAside,asideRadio);
+    // asideWidget.appendChild(msgAside);
 }
 
 function goToWhatsapp() {
@@ -24,6 +26,7 @@ function goToWhatsapp() {
 function nextQuestion() {
     const asideWidget = document.getElementById('aside-widget__question');
     const questionTwo = document.createElement('div');
+    questionTwo.setAttribute("class", "aside-widget__question");
     questionTwo.innerHTML = `
                 <div>¿Necesitás ayuda con tu compra?</div>
                 <div>
@@ -32,7 +35,7 @@ function nextQuestion() {
                 </div>
     `;
     asideWidget.appendChild(questionTwo);
-    btnYes.removeEventListener('click',goToWhatsapp);
+    btnYes.removeEventListener('click',nextQuestion);
     btnNo.removeEventListener('click',nextQuestion);
 
     const btnYesSecond = document.getElementById('btn-aside_yes-second');
