@@ -56,32 +56,29 @@
 .containerContacto {
     width: 100%;
     margin-top: 60px;
-    flex-wrap: wrap;
+    height: 400px;
 }
 
-.rowC1 {
-    margin-left: 20px;
+.texto {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.rowC2 {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
+.ubicacion {
+    margin-top: 500px;
+    text-align: left;
 }
 
-.col-3C {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    width: 20%;
+.formulario {
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 .sectionCtitle {
@@ -90,41 +87,27 @@
     justify-content: center;
 }
 
-.facebookContactIcon {
+.phoneContactIcon, .whatsappContactIcon, .mailContactIcon  {
     width: 20%;
+    margin-left: 250px;
 }
 
-.instagramContactIcon {
-    width: 20%;
-}
-
-.whatsappContactIcon {
-    width: 20%;
-}
-
-.mailContactIcon {
-    width: 20%;
-}
-
-.ubicacion {
-    margin-top: 80px;
-    text-align: right;
-}
-
-form input {
+input {
     padding: 10px 20px;
     font-size: 14px;
     margin: 10px 0;
     border: 1px solid black;
     font-family: "Montserrat", sans-serif;
+    display: flex;
 }
   
 label {
-    display: inline-block;
+    display: flex;
     margin-bottom: 0.5rem;
+    padding-top: 10px;
 }
   
-form textarea {
+textarea {
     padding: 70px 20px;
     font-size: 14px;
     margin: 30px 0;
