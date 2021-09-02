@@ -1,5 +1,7 @@
 console.log('Index.js working');
 
+// alert('Es tu priemra vez comprando?')
+
 const btnYes = document.getElementById('btn-aside_yes');
 const btnNo =document.getElementById('btn-aside_no');
 
