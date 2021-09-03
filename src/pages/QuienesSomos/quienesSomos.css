@@ -74,10 +74,17 @@
     margin-right: 0; 
 }
 
-.pP, .sP {
-    text-align: center;
+.pP, .sP, .tP {
+    text-align: left;
 }
 
+.cP, .qP {
+    text-align: right;
+}
+
+.cPheader, .qPheader {
+    text-align: right;
+}
 .img-ceo {
     display: flex;
     justify-content: center;
