@@ -78,5 +78,15 @@
 .btn-primary:hover{
     background-color: rgb(237, 118, 108);
     border-color: rgb(255, 182, 0);
+    color: white;
 
+}
+
+.btn-buy__a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-buy__a:hover{
+    color: white;
 }
