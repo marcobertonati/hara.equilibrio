@@ -46,3 +46,7 @@ function nextQuestion() {
     btnYesSecond.addEventListener('click', goToWhatsapp);
     btnNoSecond.addEventListener('click', nextSecondQuestion);
 }
+
+$(document).ready(function () {
+    $('#myModal').modal('show')
+  })
