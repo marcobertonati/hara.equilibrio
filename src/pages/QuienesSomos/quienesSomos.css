@@ -105,11 +105,15 @@
 
 .col-4QS2 { 
     float: left;  
-    width: 30.8%; 
+    width: 32%; 
 }
 
 .last { 
-    margin-right: 0; 
+    float: right;
+    width: 26%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .pP, .sP, .tP {
@@ -137,4 +141,5 @@
 
 .ubicacion {
     text-align: right;
+    margin-top: 50px;
 }
