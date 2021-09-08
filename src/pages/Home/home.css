@@ -1,9 +1,19 @@
+*{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .body-class{
-    background-color: rgb(194, 228, 227);
+    background-color: rgb(237, 118, 108);
 }
 
 .container {
-    background-color: rgb(248, 249, 250);
+    background-color: rgb(255, 255, 255);
+}
+
+.row{
+    background-color: rgb(255, 255, 255);
 }
 
 /*-------------*/
@@ -11,33 +21,56 @@
 /*Header & Navbar*/
 
 .header-navbar{
-    margin: 1rem;
-    color: rgb(69, 130, 128);
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 182, 0);
+    margin: 1rem 0rem;
 }
 
 .header-navbar__annouce{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgb(237, 118, 108);
     text-align: center;
+    font-size: 1.125rem;
 }
 
-.navbar-collapse{
-    justify-content:center;
-    border: 1px solid rgb(69, 130, 128);;
-    border-radius: 10px;
+.navbar-nav{
+    padding-left: 0;
 }
 
 .navbar-ul{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     flex-flow: column;
+}
+
+.nav-item{
+    background-color: rgb(237, 118, 108);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-item:hover{
+    background-color: rgb(255, 182, 0);
+}
+
+.nav-link__collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo{
+    max-width: 100px;
 }
 
 /*Icons*/
 .fab {
-    color: rgb(69, 130, 128);
+    color: rgb(255, 182, 0);
 }
 
 .icons-socialmedia{
@@ -48,9 +81,26 @@
 
 /*Aside*/
 
-.aside-widget {
+.aside-widget__destacated-article{
+    margin-bottom: 1rem;
+}
+
+.aside-widget__destacated-article_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1vw;
+    color: rgb(237, 118, 108);
+}
+
+.aside-widget__destacated-article_img{
+    border: 2px solid rgb(237, 118, 108);
+    margin-bottom: 1rem;
+}
+
+.aside-widget__radio {
     /* padding: 1rem 1rem 0rem 0rem; */
-    margin: 0rem 1rem 1rem 0rem;
+    margin: 1rem 1rem 1rem 0rem;
 }
 .aside-img{
     max-width: 100%;
@@ -58,18 +108,34 @@
 }
 
 .aside-a__radio-nova{
+    margin-top: 0.25rem;
+    padding: 0.25rem;
+    background-color: rgb(237, 118, 108);
+    
+}
+
+.aside-a__radio-nova:hover{
+    background-color: rgb(255, 182, 0);
+}
+
+.aside-a__radio-nova_href{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
-    color: rgb(69, 130, 128);
-    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+
+.aside-a__radio-nova_href:hover{
+    color: white;
 }
 
 
-/*Home*/
 
 /*--Footer--*/
 .footer-container{
-    background-color: rgb(248, 249, 250);
-    margin-top: 500px;
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
 }
 
 .footer-p{
