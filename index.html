@@ -26,6 +26,81 @@
 
   <div class="container">
 
+    <!--MODAL POPUP-->
+    <!-- <div class="modal fade" id="first-question" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">¿Es tu primera vez comprando indumentaria de montaña?</h5>
+
+          </div>
+          <div class="modal-footer btns-modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" data-bs-dismiss="modal" class="btn btn-primary btn-modal">SI</button>
+            <button type="button" data-bs-dismiss="modal" class="btn btn-primary btn-modal">NO</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Hide this modal and show the first with the button below.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    
+    <div class="modal fade" id="first-question" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">¿Es tu primera vez comprando indumentaria de montaña?</h5>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <!-- <div class="modal-body">
+            Show a second modal and hide this one with the button below.
+          </div> -->
+          <div class="modal-footer btns-modal-footer">
+            <button id="modal-one-btn" class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">SI</button>
+
+            <button id="modal-one-btn" class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">NO</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel2">¿Necesitás ayuda en tu compra?</h5>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <!-- <div class="modal-body">
+            ¿Necesitás ayuda en tu compra?
+          </div> -->
+          <div class="modal-footer btns-modal-footer">
+            <!-- <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button> -->
+            <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">SI</button>
+
+            <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">NO</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!--HEADER & NAVBAR-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -168,6 +243,7 @@
 
   <!--Link JavaScript index.js-->
   <script src="./src/js/index.js"></script>
+  <script src="./src/js/modalPopIndex.js"></script>
 
 
 </body>

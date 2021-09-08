@@ -1,12 +1,12 @@
-console.log('Index.js working');
+console.log('Index.js asd');
 
 // alert('Es tu priemra vez comprando?')
 
-const btnYes = document.getElementById('btn-aside_yes');
-const btnNo =document.getElementById('btn-aside_no');
+// const btnYes = document.getElementById('btn-aside_yes');
+// const btnNo =document.getElementById('btn-aside_no');
 
-btnYes.addEventListener('click', nextQuestion);
-btnNo.addEventListener('click', nextQuestion);
+// btnYes.addEventListener('click', nextQuestion);
+// btnNo.addEventListener('click', nextQuestion);
 
 function nextSecondQuestion() {
     const asideWidget = document.getElementById('aside-widget');
@@ -47,6 +47,4 @@ function nextQuestion() {
     btnNoSecond.addEventListener('click', nextSecondQuestion);
 }
 
-$(document).ready(function () {
-    $('#myModal').modal('show')
-  })
+
