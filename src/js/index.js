@@ -21,7 +21,7 @@ function nextSecondQuestion() {
 
 function goToWhatsapp() {
     alert('¡Lo esperamos en Whatsapp!')
-    window.location.href = "https://api.whatsapp.com/send?phone=+542616171509"
+    window.location.href = "https://api.whatsapp.com/send?phone=+5492984567400"
     
 }
 
@@ -45,6 +45,10 @@ function nextQuestion() {
 
     btnYesSecond.addEventListener('click', goToWhatsapp);
     btnNoSecond.addEventListener('click', nextSecondQuestion);
+
+    btnYesSecond.addEventListener('click', goToWhatsapp);
+    btnNoSecond.addEventListener('click', nextQuestion);
 }
+
 
 
