@@ -26,80 +26,49 @@
 
   <div class="container">
 
+    <button type="button" data-bs-toggle="modal" data-bs-target="#first-question">Activar modal</button>
+
     <!--MODAL POPUP-->
-    <!-- <div class="modal fade" id="first-question" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">¿Es tu primera vez comprando indumentaria de montaña?</h5>
+    <div class="modal fade in" role="dialog" id="first-question" aria-hidden="true" aria-labelledby="modalTitle" tabindex="-1">
 
-          </div>
-          <div class="modal-footer btns-modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" data-bs-dismiss="modal" class="btn btn-primary btn-modal">SI</button>
-            <button type="button" data-bs-dismiss="modal" class="btn btn-primary btn-modal">NO</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Hide this modal and show the first with the button below.
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
-    
-    <div class="modal fade" id="first-question" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
+
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel">¿Es tu primera vez comprando indumentaria de montaña?</h5>
-            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            <h5 class="modal-title" id="modalTitle">¿Es tu primera vez comprando indumentaria de montaña?</h5>
           </div>
-          <!-- <div class="modal-body">
-            Show a second modal and hide this one with the button below.
-          </div> -->
+
           <div class="modal-footer btns-modal-footer">
-            <button id="modal-one-btn" class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">SI</button>
 
-            <button id="modal-one-btn" class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">NO</button>
+            <button id="modal-one-btn" data-bs-dismiss="modal" class="btn btn-secondary btn-modal" data-bs-toggle="modal" data-bs-target="#second-question">SI</button>
+
+            <button id="modal-two-btn" data-bs-dismiss="modal" class="btn btn-secondary btn-modal" data-bs-toggle="modal" data-bs-target="#second-question">NO</button>
 
           </div>
         </div>
       </div>
     </div>
 
-    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal fade" role="dialog" id="second-question" aria-hidden="true" aria-labelledby="modalTitle2" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel2">¿Necesitás ayuda en tu compra?</h5>
-            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            <h5 class="modal-title" id="modalTitle2">¿Necesitás ayuda en tu compra?</h5>
           </div>
-          <!-- <div class="modal-body">
-            ¿Necesitás ayuda en tu compra?
-          </div> -->
-          <div class="modal-footer btns-modal-footer">
-            <!-- <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button> -->
-            <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">SI</button>
 
-            <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">NO</button>
+
+          <div class="modal-footer btns-modal-footer">
+
+            <a href="https://api.whatsapp.com/send?phone=+5492984567400" class="btn btn-primary btn-modal" role="button">SI</a>
+            <button class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-dismiss="modal">NO</button>
+            
           </div>
         </div>
       </div>
     </div>
+
+
     
     <!--HEADER & NAVBAR-->
     <header>
@@ -117,11 +86,11 @@
               <!-- <h1 class="col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6">HARA EQUILIBRIO</h1> -->
 
 
-              <div class="col-4
+              <div class="col-6
               header-navbar__annouce">Envío gratis a toda la Argentina en compras superiores a $5000
                 🚚 </div>
 
-              <div class="col-5 icons-socialmedia">
+              <div class="col-4 icons-socialmedia">
 
                 <a href="https://www.facebook.com/haraequilibrio-106295011123523" target="blank">
                   <i class="fab fa-facebook-square fa-2x"></i>
