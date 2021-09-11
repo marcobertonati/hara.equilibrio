@@ -1,6 +1,6 @@
 console.log('Index.js working');
 
-// const firstQuestionModal = new bootstrap.Modal(document.getElementById('first-question'), {});
+const firstQuestionModal = new bootstrap.Modal(document.getElementById('first-question'), {});
 
-// firstQuestionModal.toggle();
+firstQuestionModal.toggle();
 
