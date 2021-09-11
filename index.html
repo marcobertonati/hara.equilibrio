@@ -26,9 +26,6 @@
 
   <div class="container">
 
-    <!--BOTON DE PRUEBA POP UP-->
-    <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#first-question">Activar modal</button> -->
-
     <!--MODAL POPUP-->
     <div class="modal fade" role="dialog" id="first-question" aria-hidden="true" aria-labelledby="modalTitle" tabindex="-1">
 
@@ -73,9 +70,9 @@
     
     <!--HEADER & NAVBAR-->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="row navbar navbar-expand-lg navbar-light">
 
-        <div class="row">
+        <div class="row-fluid">
 
           <div class="row-fluid">
 
@@ -87,9 +84,13 @@
            
 
 
-              <div class="col-6
-              header-navbar__annouce">Envío gratis a toda la Argentina en compras superiores a $5000
-                🚚 </div>
+              <div class="col-6 d-none d-md-block">
+
+                  <div class="header-navbar__annouce">
+                    Envío gratis a toda la Argentina en compras superiores a $5000 🚚
+                  </div>
+
+             </div>
 
               <div class="col-4 icons-socialmedia">
 
@@ -119,18 +120,23 @@
 
             <div class="row collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav navbar-ul">
+
                 <li class="nav-item col-2">
                   <a class="nav-link nav-link__collapse" href="./src/pages/QuienesSomos/quienesSomos.html">QUIENES SOMOS</a>
                 </li>
+
                 <li class="nav-item col-2">
                   <a class="nav-link nav-link__collapse" href="./src/pages/MontañaProductos/montañaProductos.html">MONTAÑA</a>
                 </li>
+
                 <li class="nav-item col-2">
                   <a class="nav-link nav-link__collapse" href="./src/pages/UrbanoProductos/urbanoProductos.html">URBANO</a>
                 </li>
+
                 <li class="nav-item col-2">
                   <a class="nav-link nav-link__collapse" href="./src/pages/AccesoriosProductos/accesoriosProductos.html">ACCESORIOS</a>
                 </li>
+
                 <li class="nav-item col-2">
                   <a class="nav-link nav-link__collapse" href="./src/pages/Contactanos/contactanos.html">CONTACTANOS</a>
                 </li>
@@ -149,7 +155,7 @@
     <section id="home">
       <div class="row home">
 
-        <div class="col-10">
+        <div class="col-sm-12 col-lg-10">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -184,15 +190,15 @@
         </div>
 
 
-        <aside class="col-2">
+        <aside class="col-sm-12 col-lg-2">
 
           <div id="aside-widget" class="row">
-            <div id="aside-widget__destacated-article" class="col-12 aside-widget">
+            <div id="aside-widget__destacated-article" class="col-sm-6 col-lg-12 aside-widget">
               <div class="aside-widget__destacated-article_text"><strong>ARTÍCULO DESTACADO</strong></div>
               <img class="img-fluid aside-widget__destacated-article_img" src="./src/assets/DUPLO-AzulMarino-2.jpg" alt="" srcset="">
             </div>
 
-            <div id="aside-widget__radio" class="col-12 aside-widget">
+            <div id="aside-widget__radio" class="col-sm-6 col-lg-12 aside-widget">
               <img class="aside-img img-fluid" src="./src/assets/radio-nova.jpg" alt="..." />
               <div class="aside-a__radio-nova"> <a class="aside-a__radio-nova_href" target="blank" href="https://www.novacontenidos.com/">Radio NOVA Contenidos</a>
               </div>
