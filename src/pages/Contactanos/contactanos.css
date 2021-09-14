@@ -81,24 +81,27 @@
 
 /*Contactanos*/
 
+.datos-hara{
+    height: 100%;
+}
 #Contactanos {
-    height: 700px;
+    /* height: 700px; */
     margin-top: 50px;
 }
 
 .containerContacto {
     width: 100%;
     margin-top: 60px;
-    height: 400px;
+    /* height: 400px; */
 }
 
-.texto {
+/* .texto {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 30px;
     padding-left: 20px;
-}
+} */
 
 .iconos {
     display: flex;
@@ -107,8 +110,9 @@
 }
 
 .ubicacion {
-    margin-top: 500px;
-    text-align: left;
+    /* margin-top: 500px; */
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .formulario {
@@ -124,7 +128,7 @@
 
 .phoneContactIcon, .whatsappContactIcon, .mailContactIcon  {
     width: 20%;
-    margin-left: 250px;
+    /* margin-left: 250px; */
 }
 
 input {
@@ -152,23 +156,31 @@ textarea {
     width: 100%;
 }
 
-.texto-wsp {
+
+.texto__a-contactos{
     display: flex;
     justify-content: flex-end;
-    margin-right: 60px;
-    margin-top: 10px;
+    margin-right: 3rem;
 }
 
-.texto-mail {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 30px;
-    margin-top: 10px;
-}
+/*Cambios que se va a aplicar hasta un width máximo de 992px*/
+@media (max-width:992px) {
 
-.texto-telefono {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
-    margin-top: 10px;
+    .texto__a-contactos{
+        display: flex;
+        justify-content: center;
+        margin-right: 0rem;
+        margin-top: 1rem;
+
+    }
+
+    #Contactanos {
+        margin-top: 0;
+    }
+    
+    .containerContacto {
+        width: 100%;
+        margin-top: 0;
+    }
+    
 }

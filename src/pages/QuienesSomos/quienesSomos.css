@@ -82,7 +82,8 @@
 /*Quienes Somos*/
 
 #QuienesSomos {
-    height: 500px;
+    /* height: 500px; */
+    margin-top: 1rem;
 }
 
 .section-title {
@@ -92,10 +93,10 @@
     color: rgb(69, 130, 128);
 }
 
-.container-QS { 
+/* .container-QS { 
     width: 100%;  
     margin-top: 50px; 
-}
+} */
 
 .col-4QS1 { 
     float: left;  
@@ -108,13 +109,13 @@
     width: 32%; 
 }
 
-.last { 
+/* .last { 
     float: right;
     width: 26%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-}
+} */
 
 .pP, .sP, .tP {
     text-align: left;
