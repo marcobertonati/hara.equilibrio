@@ -138,6 +138,9 @@
 
 /*Aside*/
 
+#aside-widget{
+    height: 100%;
+}
 
 .aside-widget__destacated-article{
     margin-bottom: 1rem;
