@@ -163,28 +163,36 @@
               </div>
             </div>
             <div class="col-sm-12 col-lg-4 formulario">
-              <label for="nombre">Nombre y Apellido</label>
-              <input
-                type="text"
-                name="nombre"
-                id="nombre"
-                placeholder="Ingresa tu nombre"
-              />
-              <label for="email">Correo Electrónico</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="ejemplo@mail.com"
-              />
-              <label for="mensjae">Mensaje</label>
-              <textarea type="text" name="mensaje" id="mensaje"></textarea>
-              <input
-                class="btn btn-primary"
-                type="submit"
-                name="Enviar"
-                class="boton"
-              />
+              <form action="https://formspree.io/f/xgerdayd" method="POST">
+                <label for="nombre">Nombre y Apellido</label>
+                <input
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                  placeholder="Ingresa tu nombre"
+                />
+                <label for="email">Correo Electrónico</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="ejemplo@mail.com"
+                />
+                <label for="mensjae">Mensaje</label>
+                <textarea type="text" name="mensaje" id="mensaje"></textarea>
+                <input
+                  class="btn btn-primary"
+                  type="submit"
+                  name="_replyto"
+                  class="boton"
+                  value="Enviar"
+                />
+                <input 
+                type="hidden" 
+                name="_subject" 
+                value="Website contact" 
+                />
+              </form>
             </div>
             <div class="col-sm-12 col-lg-4 iconos">
                 <div class="row">
@@ -202,14 +210,14 @@
                 <p class="texto__a-contactos">+54 9 2984 56-7400</p>
               </div>
               <div class="col-sm-4 col-lg-12 mail">
-                <a class="texto__a-contactos" href="https://outlook.live.com/" target="blank">
+                <a class="texto__a-contactos" href="" target="blank">
                   <img
                     src="/src/assets/mail.png"
                     class="mailContactIcon"
                     alt="Mail"
                   />
                 </a>
-                <p class="texto__a-contactos">info@haraequilibrio.com.ar</p>
+                <p class="texto__a-contactos">hara.equilibrio@gmail.com</p>
               </div>
               <div class="col-sm-4 col-lg-12 telefono">
                   <a class="texto__a-contactos" href=""><img 
